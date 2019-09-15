@@ -22,59 +22,6 @@
     </ul>
   </div>
 </template>
-<style scoped>
-  .calendar {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    width: 600px;
-    padding: 15px 10px;
-  }
-
-  .calendar-header {
-    display: flex;
-  }
-
-  .calendar-header>i:first-child {
-    margin-right: auto;
-    cursor: pointer;
-  }
-
-  .calendar-header>i:last-child {
-    margin-left: auto;
-    cursor: pointer;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  .weekdays {
-    padding-left: 0;
-    width: 100%;
-    display: flex;
-  }
-
-  .weekdays li {
-    text-align: center;
-    width: 85px;
-    font-weight: bold;
-  }
-
-  .dates {
-    padding-left: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .dates li {
-    text-align: center;
-    width: 85px;
-    margin: 10px 0;
-    cursor: pointer;
-  }
-</style>
 <script>
 import moment from "moment";
 export default {
@@ -136,6 +83,56 @@ export default {
   }
 };
 </script>
+<style scoped>
+  .calendar {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 600px;
+    padding: 15px 10px;
+  }
 
-<style>
+  .calendar-header {
+    display: flex;
+  }
+
+  .calendar-header>i:first-child {
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  .calendar-header>i:last-child {
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .weekdays {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+  }
+
+  .weekdays li {
+    text-align: center;
+    width: 85px;
+    font-weight: bold;
+  }
+
+  .dates {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dates li {
+    text-align: center;
+    width: 85px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
 </style>
